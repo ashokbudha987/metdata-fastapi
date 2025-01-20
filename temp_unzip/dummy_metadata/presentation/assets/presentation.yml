@@ -1,0 +1,24 @@
+# be mindful about the tabs and spaces
+stock_movement: # should be filename in the semantics/assets folder sales.yml
+  metrics: # add all modified metrics inside the metrics tag
+    AUC:
+      description: IT is defined as the average unit cost this is my definition given by Ashok Budha
+      synonym:
+        - unit cost
+        - ashok budha
+    sales amount:
+      desc: sles retail value in terms of amount and amount in npr(1 usd=100npr)
+      someting: this is something i added
+      synonym:
+        - sales retail
+        - sales@retail
+        - sales value
+      # you can add new tags or change existing tags.
+      # new names added to synonym will be appended with existing.
+      # for other existing tags will be replaced.
+      # tags not present in the semantic definition will be added as new
+ 
+  attributes:
+    inventory_intransit_quantity:
+      synonym:
+        - in transit quantity
