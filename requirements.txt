@@ -1,3 +1,6 @@
 fastapi
 uvicorn
 ./metadata-packages/metadatacore-1.0.10-py3-none-any.whl
+./metadata-packages/itlm-db-connector-0.1.0-py3-none-any.whl
+snowflake-connector-python
+mysql-connector-python
